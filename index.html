@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Sedona</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet"> 
+</head>
+<body>
+	<div class="wrapper">
+	<header>
+		<nav class="site-nav">
+			
+			<a class="sedona-logo"><img src="img/sedona-logo.png" alt="" class="sedona-logo-img" width="138" height="70"></a>
+			<ul class="nav-list">
+				<li class="nav-item"><a href="" class="nav-link current">Информация</a></li>
+				<li class="nav-item"><a href="" class="nav-link">Фото и видео</a></li>
+				<li class="nav-item"><a href="" class="nav-link">Карта штата</a></li>
+				<li class="nav-item"><a href="hotels.html" class="nav-link">Гостиницы</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="main-banner">
+			<h1 class="visually-hidden"></h1>
+			<img class="welcome" src="img/welcome.png" width="188" height="45" alt="" class="welcone">
+			<img class="to_the_gorgeous" src="img/to the gorgeous.png" width="176" height="30" alt="" class="to-the">
+			<img class="sedona_name" src="img/sedona.png" width="458" height="78" alt="" class="sedona">
+			<img class="because" src="img/because.png" width="296" height="80" alt="" class="because">			
+		</section>
+		<section class="features">
+			<h1 class="features-heading">СЕДОНА — небольшой городок в АРИЗОНЕ, зАСЛУЖИвающий большего!</h1>
+			<h2 class="features-heading">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</h2>
+			<ul class="features-list">
+				<li class="features-item first">
+					<div class="first-block">
+						<div class="first-info">
+							<h3 class="item-heading">НАСТОЯЩИЙ ГОРОДОК</h3>
+							<p class="item-number">№1</p>
+							<p class="item-slogan">СЕДОНА — НЕ АТтРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+						</div>
+					</div>
+					<ul class="first-list">
+						<li class="first-items housing">
+							<h4>Жилье</h4>
+							<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+						</li>
+						<li class="first-items food">
+							<h4>ЕДА</h4>
+							<p>Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+						</li>
+						<li class="first-items souvenirs">
+							<h4>СУВЕНИРЫ</h4>
+							<p>Не только китайского, но и местного производства!</p>
+						</li>						
+					</ul>
+				</li>
+				<li class="features-item second">
+					<div class="second-info">
+						<h3 class="item-heading">ТАМ ЕСТЬ Мост дьявола</h3>
+						<p class="item-number">№2</p>
+						<p class="item-slogan">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+					</div>
+				</li>
+				<li class="features-item rest">
+					<ul class="third-list">						
+						<li class="small-area">
+							<h3 class="item-heading">НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
+							<p class="item-number">№3</p>
+							<p class="item-slogan">ВСЕ достопримечательности находятся очень близко</p>
+						</li>
+						<li class="road">
+							<h3 class="item-heading">КРАСИВАЯ ДОРОГА</h3>
+							<p class="item-number">№4</p>
+							<p class="item-slogan">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p>
+						</li>
+						<li class="amount">
+							<h3 class="item-heading">МАЛО ТУРИСТОВ</h3>
+							<p class="item-number">№5</p>
+							<p class="item-slogan">Большинство едет в гранд каньон и толпится там</p>
+						</li>						
+					</ul>
+			</ul>
+		</section>
+		<section class="hotel-search">
+			<h2 class="hotel-heading">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
+			<p class="hotel-text">Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
+			<div class="search-container">
+				<h2 class="form-heading hotelsearch-button">ПОИСК ГОСТИНИЦЫ В седоне</h2>
+				<form action="https://echo.htmlacademy.ru" class="hotel-form search-form">				
+					<p>
+						<label for="start" class="form-label">Дата заезда:</label>
+						<input type="date" class="form-input" id="start" name="date-start" value="4 июля 2017" placeholder="4 июля 2017">
+					</p>
+					<p>
+						<label for="end" class="form-label">Дата Выезда:</label>
+						<input type="date" class="form-input" placeholder="4 июля 2017" name="date-end" id="end" value="4 июля 2017">
+					</p>
+					<p class="guests">
+						<span class="adults">ВзрослыЕ:</span>
+						<span class="number adults-number">
+							<span class="minus">-</span>
+							<span class="value">2</span>
+							<span class="plus">+</span>
+						</span>
+						<span class="children">ДетИ:</span>
+						<span class="number children-number">
+							<span class="minus">-</span>
+							<span class="value">0</span>
+							<span class="plus">+</span>
+						</span>
+					</p>
+					<button class="button search-button">Найти</button>
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<section class="contacts">
+			<h2 class="visually-hidden">Карта</h2>
+			<img class="contacts-map" src="img/map.jpg" alt="">
+		</section>
+		<section class="footer-socials">
+			<p class="footer-item hashtag">#visitSEDONA</p>
+			<div class="footer-item socials">
+				<a href="" class="socials-link">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 width="17px" height="15px" viewBox="0 0 17 15" enable-background="new 0 0 17 15" xml:space="preserve">
+					<g id="W6EeEF_1_">
+						<g>
+							<path fill="#FFFFFF" d="M10.95,0.144c1.685-0.496,2.984,0.27,3.577,1.179c0.673-0.231,1.331-0.481,2.011-0.708
+								c-0.004,0.861-0.522,1.513-0.857,1.768c0.685,0.17,1.304-0.491,1.304-0.491c-0.169,1-1.006,1.788-1.563,2.024
+								c-0.231,6.75-3.175,11.217-10.077,11.082c-0.522,0,0.075,0-0.446,0c-0.41,0-4.164-0.46-4.898-1.887
+								c2.271,0.196,3.893-0.422,4.693-1.177c-0.96-0.3-2.679-0.477-2.979-2.95C2.064,9.09,2.279,9.212,2.905,9.103
+								C1.705,8.247,0.374,7.53,0.448,5.33c0.285,0.328,1.067,0.536,1.34,0.472c-0.703-0.241-1.97-3.36-0.894-4.952
+								c1.818,1.854,3.735,3.606,7.152,3.773C8.254,2.33,9.183,0.793,10.95,0.144z"/>
+						</g>
+					</g>
+					</svg>
+				</a>
+				<a href="" class="socials-link">
+					<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 width="12px" height="22px" viewBox="0 0 12 22" enable-background="new 0 0 12 22" xml:space="preserve">
+					<path fill="#FFFFFF" d="M12,4V0H8C5.791,0,4,1.791,4,4v4H0v4h4v10h4V12h4V8H8V4H12z"/>
+					</svg>
+				</a>
+				<a href="" class="socials-link">
+					<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 width="20px" height="16px" viewBox="0 0 20 16" enable-background="new 0 0 20 16" xml:space="preserve">
+					<path fill="#FFFFFF" d="M17,0H3C1.35,0,0,1.35,0,3v10c0,1.65,1.35,3,3,3h14c1.65,0,3-1.35,3-3V3C20,1.35,18.65,0,17,0z
+						 M6.027,11.998V4.002L15.014,8L6.027,11.998z"/>
+					</svg>
+				</a>			
+			</div>
+			<p class="footer-item copy">
+				<span>WEBSITE by</span>
+				<a href="" class="copy-link"></a>
+			</p>
+		</section>
+	</footer>
+</div>
+<script src="js/popup.js"></script>
+</body>
+</html>
